@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           sp500_change   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.2111
+Date:                Mon, 23 Jun 2025   Prob (F-statistic):              0.646
+Time:                        08:43:52   Log-Likelihood:                 3237.4
+No. Observations:                1062   AIC:                            -6471.
+Df Residuals:                    1060   BIC:                            -6461.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const           -3.743e-05      0.001     -0.070      0.944      -0.001       0.001
+sentiment_score     0.0004      0.001      0.459      0.646      -0.001       0.002
+==============================================================================
+Omnibus:                      196.179   Durbin-Watson:                   1.961
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1949.123
+Skew:                          -0.531   Prob(JB):                         0.00
+Kurtosis:                       9.551   Cond. No.                         3.10
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

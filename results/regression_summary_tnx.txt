@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             tnx_change   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.2570
+Date:                Mon, 23 Jun 2025   Prob (F-statistic):              0.612
+Time:                        08:44:12   Log-Likelihood:                 2749.0
+No. Observations:                1060   AIC:                            -5494.
+Df Residuals:                    1058   BIC:                            -5484.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.0009      0.001      1.012      0.312      -0.001       0.003
+sentiment_score     0.0007      0.001      0.507      0.612      -0.002       0.003
+==============================================================================
+Omnibus:                      111.355   Durbin-Watson:                   1.714
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              837.766
+Skew:                           0.038   Prob(JB):                    1.21e-182
+Kurtosis:                       7.355   Cond. No.                         3.09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
